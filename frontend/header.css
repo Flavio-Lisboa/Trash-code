@@ -1,0 +1,43 @@
+.header {
+    width: 100%;
+    height: 50px;
+    background-color: #130613;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-right {
+    display: flex;
+    width: 20%;
+}
+
+.header .logo {
+    margin-left: 5%;
+    color: #2ecc71;
+    cursor: pointer;
+}
+
+.header .mycode {
+    margin-right: 5%;
+    color: #fafafa;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.header .mycode:hover {
+    color: #2ecc71;  
+}
+
+.header .exit {
+    margin-right: 5%;
+    color: #fafafa;
+    margin-left: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.header .exit:hover {
+    color: #b30b1e;  
+    text-decoration: none;
+}
