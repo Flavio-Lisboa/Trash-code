@@ -1,6 +1,6 @@
 <?php 
 
-require_once "Class/userDB.php";
+require_once "autoloader.php";
 
 $delete = new userDB('Localhost', 'trashcode', 'root', '');
 

@@ -1,7 +1,5 @@
 <?php
 
-require_once "user.php";
-
 class UserDB {
 
     private $connection;

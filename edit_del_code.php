@@ -1,6 +1,6 @@
 <?php 
 
-require_once "Class/codeDB.php";
+require_once "autoloader.php";
 
 $edit_del = new CodeDB('Localhost', 'trashcode', 'root', '');
 

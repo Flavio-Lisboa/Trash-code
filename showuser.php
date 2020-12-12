@@ -1,6 +1,6 @@
 <?php
 
-require_once "Class/userDB.php";
+require_once "autoloader.php";
 
 $show = new UserDB('Localhost', 'trashcode', 'root', '');
 
@@ -37,7 +37,7 @@ if($button) {
             }
 
         } else {
-            $_SESSION['msg'] = "Esse usuário não exise!";
+            $_SESSION['msg'] = "Esse usuário não existe!";
             header('location: ./frontend/login.php');
         }
 

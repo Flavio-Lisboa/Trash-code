@@ -1,13 +1,13 @@
 <?php 
 
-require_once "Class/codeDB.php";
+require_once "autoloader.php";
 
 $code = new CodeDB('Localhost', 'trashcode', 'root', '');
 
 session_start();
 
-$title = filter_var($_POST['code_title'], FILTER_SANITIZE_STRING);
-$content = filter_var($_POST['code'], FILTER_SANITIZE_STRING);
+$title = $_POST['code_title'];
+$content = $_POST['code'];
 
 if(mb_strlen($title) < 41) {
 
