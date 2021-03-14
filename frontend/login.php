@@ -24,7 +24,7 @@
         <h1>Login</h1>
 
         <input type="email" name="email" placeholder="Email" required maxlength="100"/>
-        <input type="password" name="password" placeholder="Password" required maxlength="20" minlength="8"/>
+        <input type="password" name="password" placeholder="Password" required/>
         <input type="submit" name="clickbutton" value="Acessar">
 
         <p class="link">Não tem conta? <a href="register.php">cadastre-se</a></p>      
