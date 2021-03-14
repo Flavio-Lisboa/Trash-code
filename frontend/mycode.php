@@ -12,7 +12,7 @@
         echo "          <div class='content2'>";
         echo "              <p class='data'>Data: $codeDate </p>";
         echo "              <p class='title'>Título: $codeTitle</p>";
-        echo "              <textarea class='code_content' disabled > Conteúdo:  $codeContent </textarea>";
+        echo "              <textarea class='code_content' disabled >$codeContent</textarea>";
         echo "          </div>";
         echo "          <form action='../edit_del_code.php' method='POST' class='button2'>";                  
         echo "              <button type='submit' name='btdel' class='bt2' value='". $codeId ."'>Excluir</button>";
