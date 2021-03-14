@@ -78,3 +78,6 @@ $ localhost/trash-code
 Flavio Fernandes Lisboa
 
 Email: flavio.fernandes1200@gmail.com
+
+I am grateful to Etec de Taboão da Serra, for providing me with the necessary knowledge to create this project.
+
