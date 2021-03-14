@@ -1,24 +1,83 @@
-Trash code
-A website for programmers to tag their junk codes (with lots of comments and tests).
+# Trash Code
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/Flavio-Lisboa/Trash-code/blob/master/LICENSE) 
 
-How to use this project:
+# About project
 
-copy the url of this project.
+A website for programmers to save their junk codes (with lots of comments and tests).
 
-open your git bash.
+## Layout web
+![Web 1](https://github.com/Flavio-Lisboa/Trash-code/blob/master/assets/login.PNG)
 
-go to / c: / xampp / htdocs.
+![Web 2](https://github.com/Flavio-Lisboa/Trash-code/blob/master/assets/code.PNG)
 
-give a git init.
+![Web 3](https://github.com/Flavio-Lisboa/Trash-code/blob/master/assets/mycode.PNG)
 
-git clone project-url-here.
 
-access the folder: scriptdatabase.
+# Technologies used
 
-create the database in the workbench, phpmyadmin or any mysql database of your choice.
+## Back end
+- PHP
+- MySQL
 
-start mysql and apache on xampp.
+## Front end
+- HTML 
+- CSS
 
-in the browser access the url: localhost / trashcode.
+# Features
 
-I hope you enjoy!
+### Register
+- Email
+- Password
+
+### You can:
+- Create notes
+- View notes
+- Delete notes
+ 
+### The notes have:
+- Title
+- Content
+- Date and Time
+ 
+### Anoter features:
+- LogOut
+
+# How to run the project
+
+## Prerequisites: 
+- PHP7
+- Xampp
+
+```bash
+# Clone this repository in the htdocs folder, which is in the Xampp folder
+
+$ cd /c/xampp/htdocs
+
+$ git clone https://github.com/Flavio-Lisboa/Trash-code.git
+
+# Access the project folder on terminal/cmd
+$ cd /c/xampp/htdocs/trash-code
+
+# Start your XAMPP
+
+# Go to the folder scriptdatabase and execute all the script in PHPMyAdmin or MySQL Workbench
+
+```
+## Running the application 
+
+```bash
+
+#Start Apache and MySQL in Xampp and enter the following code in your browser:
+
+$ localhost/trash-code
+ 
+```
+ 
+# Author
+
+Flavio Fernandes Lisboa
+
+Email: flavio.fernandes1200@gmail.com
+
+I am grateful to Etec de Taboão da Serra, for providing me with the necessary knowledge to create this project.
+
