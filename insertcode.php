@@ -9,9 +9,9 @@ session_start();
 $title = $_POST['code_title'];
 $content = $_POST['code'];
 
-if(mb_strlen($title) < 41) {
+if(strlen($title) < 41) {
     if(!empty($content) and !empty($title)) {
-        if(mb_strlen($content) > 4000) {
+        if(strlen($content) > 4000) {
             $_SESSION['msg'] = "O código deve ter no máximo 4000 caracteres";
             header('location: ./frontend/code.php');
         } else {

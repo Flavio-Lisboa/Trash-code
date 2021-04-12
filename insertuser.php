@@ -21,7 +21,7 @@ if($reg_button) {
                 $pass = $user->user_password;
             }        
             if($user_email != $email) {
-                if(mb_strlen($password) > 7) {
+                if(strlen($password) > 7) {
                     $encrypted_password = md5($data['password']);
                     $user->insert($user_email, $encrypted_password);
                     header('location: ./frontend/code.php');
